@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+
+</head>
+<body>
+    <form action="">
+      <fieldset>
+        <legend>Elecciones</legend>
+        <label for="">Campo de texto</label>
+        <input type="text" name="" id="" /><br /><br />
+        <label for="">Area de texto</label>
+        <input type="text" name="" id="" /><br /><br />
+        <label for="">Campo para contraseña </label>
+        <input type="password" name="" id="" /><br /><br />
+      </fieldset>
+      <fieldset>
+        <legend>Controles de seleccion</legend>
+        <label for="">Lista de seleccion simple (Tipo Combo)</label>
+        <select name="mascota1">
+          <option>Perro</option>
+          <option>Gato</option>
+          <option>Roedor</option>
+        </select>
+        <label for="">Lista de seleccion simple (Tipo Combo)</label>
+        <select name="mascota2" size="2">
+          <option>Perro</option>
+          <option>Gato</option>
+          <option>Roedor</option>
+        </select>
+        <label for="">Lista de seleccion simple (Tipo Combo)</label>
+        <select name="mascota3" size="2" multiple>
+          <option>Perro</option>
+          <option>Gato</option>
+          <option>Roedor</option>
+        </select>
+        <br /><br />
+
+        <label for="">Lista de botones Radio</label>
+        <input type="radio" id="perro" name="tipo_mascota" value="1" />
+        <label for="perro">Perro</label>
+        <input type="radio" id="gato" name="tipo_mascota" value="2" />
+        <label for="gato">Gato</label>
+
+        <input
+          type="radio"
+          id="roedor"
+          name="tipo_mascota"
+          value="3"
+          checked="checked"
+        />
+        <label for="roedor">Roedor</label><br /><br />
+
+        <input type="checkbox" id="chico" name="tam_chico" value="1" />
+        <label for="chico">Chico</label>
+        <input type="checkbox" id="mediano" name="tam_mediano" value="2" />
+        <label for="mediano">Mediano</label>
+        <input
+          type="checkbox"
+          id="grande"
+          name="tam_grande"
+          value="3"
+          checked="cheked"
+        />
+        <label for="roedor">Roedor</label>
+      </fieldset>
+      <fieldset>
+        <legend>Botones</legend>
+        <input type="submit" id="envía" value="Enviar información" />
+        <input type="reset" id="borra" value="Borrar información" />
+        <input type="button" id="botón" value="Botón" />
+      </fieldset>
+      <fieldset>
+        <legend>Otros</legend>
+        <label for=""> Imagen</label>
+        <input type="hidden" id="oculto" value="Borrar información" />
+        <label for=""></label>
+      </fieldset>
+    </form>   
+</body>
+</html>
